@@ -11,7 +11,7 @@
           "servicePath": "/",
           "uploadType": "image",
           "imageInfo": {
-            "imageUrl": "ccr.ccs.tencentyun.com/tcbimages/discuzx-tcb:3.4"
+            "imageUrl": "ccr.ccs.tencentyun.com/tcbimages/discuzx-tcb:3.41"
           },
           "containerPort": 80,
           "customLogs": "stdout,/dev/stdout,/dev/stderr",
