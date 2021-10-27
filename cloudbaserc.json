@@ -21,7 +21,9 @@
             "DB_PORT": "{{env.DB_PORT}}",
             "DB_NAME": "dzx",
             "DB_USER": "{{env.MYSQL_USERNAME}}",
-            "DB_PASS": "{{env.MYSQL_PASSWORD}}"
+            "DB_PASS": "{{env.MYSQL_PASSWORD}}",
+            "ADMIN_NAME": "{{env.ADMIN_NAME}}",
+            "ADMIN_PASS": "{{env.ADMIN_PASS}}"
           },
           "initialDelaySeconds": 100,
           "volumeMounts": {
