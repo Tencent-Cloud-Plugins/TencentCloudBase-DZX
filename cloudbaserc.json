@@ -17,9 +17,8 @@
           "customLogs": "stdout,/dev/stdout,/dev/stderr",
           "envVariables": {
             "DB_HOST": "{{env.DB_IP}}:{{env.DB_PORT}}",
-            "DB_HOST2": "{{env.DB_IP}}",
             "DB_PORT": "{{env.DB_PORT}}",
-            "DB_NAME": "tcb_dzx",
+            "DB_NAME": "dzx",
             "DB_USER": "{{env.MYSQL_USERNAME}}",
             "DB_PASS": "{{env.MYSQL_PASSWORD}}",
             "ADMIN_NAME": "{{env.ADMIN_NAME}}",
