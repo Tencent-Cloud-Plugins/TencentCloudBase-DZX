@@ -25,11 +25,11 @@
             "ADMIN_NAME": "{{env.ADMIN_NAME}}",
             "ADMIN_PASS": "{{env.ADMIN_PASS}}",
             "SITE_URL": "https://${TcbHttpServiceDefaultDomain}",
-            "TCB_NOT_SHOW_CYNOS_DB": "${Outputs.laravelblog.Properties.InstanceId}"
+            "TCB_NOT_SHOW_CYNOS_DB": "${Outputs.discuzx.Properties.InstanceId}"
           },
           "initialDelaySeconds": 100,
           "volumeMounts": {
-            "/app/storage": "dzx-cfs"
+            "/app": "dzx-cfs"
           }
         }
       }
