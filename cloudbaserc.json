@@ -22,8 +22,7 @@
             "DB_NAME": "dzx",
             "DB_USER": "{{env.MYSQL_USERNAME}}",
             "DB_PASS": "{{env.MYSQL_PASSWORD}}",
-            "SITE_URL": "https://${TcbHttpServiceDefaultDomain}",
-            "TCB_NOT_SHOW_CYNOS_DB": "${Outputs.discuzx.Properties.InstanceId}"
+            "SITE_URL": "https://${TcbHttpServiceDefaultDomain}"
           },
           "initialDelaySeconds": 100,
           "volumeMounts": {
