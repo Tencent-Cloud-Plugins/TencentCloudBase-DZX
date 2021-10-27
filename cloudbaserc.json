@@ -2,12 +2,12 @@
   "version": "2.0",
   "envId": "{{env.ENV_ID}}",
   "framework": {
-    "name": "discuzx",
+    "name": "Discuzx",
     "plugins": {
       "client": {
         "use": "@cloudbase/framework-plugin-container",
         "inputs": {
-          "serviceName": "Discuzx",
+          "serviceName": "discuzx",
           "servicePath": "/",
           "uploadType": "image",
           "imageInfo": {
